@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Matching Game - Happy Birthday Satabdi!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="mainContainer">
+        <header>
+            <h1>KARKE DHIKAAA LOWDEEEEE</h1>
+        </header>
+        
+        <div class="game-board" id="gameBoard"></div>
+        
+    </div>
+
+    <div class="end-screen hidden" id="endScreen">
+        <div class="celebration-content">
+                <video class="side-video left-video" playsinline muted loop autoplay poster="images/14.jpeg">
+                    <source src="videos/video2.mp4" type="video/mp4">
+                    <!-- fallback image -->
+                    <img src="images/14.jpeg" alt="celebration">
+                </video>
+                <div class="message-box">
+                    <h1 id="endMessage" class="colorful-heading">
+                        Happy Birthday<br>Satabdi Express 🎉
+                    </h1>
+                </div>
+                <video class="side-video right-video" playsinline muted loop autoplay poster="images/14.jpeg">
+                    <source src="videos/video1.mp4" type="video/mp4">
+                    <!-- fallback image -->
+                    <img src="images/14.jpeg" alt="celebration">
+                </video>
+        </div>
+    </div>
+
+    <div class="confetti-container" id="confettiContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
